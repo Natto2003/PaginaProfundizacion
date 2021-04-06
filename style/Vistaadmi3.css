@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+
+  
+}
+#main-header {
+	background:#fb9404;
+	color: #fb9404;
+
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+ 
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+ 
+
+}
+nav ul li{
+    display: inline-block;
+    color: #ff0000;
+    font-family:'Montserrat', sans-serif ;
+    margin-top: 40px;
+    margin-right: 20px;
+   
+   
+ 
+    
+}
+nav a{
+    color: #ff0000;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 20px;
+}
+body {
+    font-family: 'Montserrat', sans-serif ;
+    overflow-x: hidden; }
+   
+    body {
+        color: #404E67;
+        background: #F5F7FA;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.table-wrapper {
+		width: 700px;
+		margin: 30px auto;
+        background: #fff;
+        padding: 20px;	
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .table-title {
+        padding-bottom: 10px;
+        margin: 0 0 10px;
+    }
+    .table-title h2 {
+        margin: 6px 0 0;
+        font-size: 22px;
+    }
+    .table-title .add-new {
+        float: right;
+		height: 30px;
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow: none;
+		min-width: 100px;
+		border-radius: 50px;
+		line-height: 13px;
+    }
+	.table-title .add-new i {
+		margin-right: 4px;
+	}
+    table.table {
+        table-layout: fixed;
+    }
+    table.table tr th, table.table tr td {
+        border-color: #e9e9e9;
+    }
+    table.table th i {
+        font-size: 13px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    table.table th:last-child {
+        width: 100px;
+    }
+    table.table td a {
+		cursor: pointer;
+        display: inline-block;
+        margin: 0 5px;
+		min-width: 24px;
+    }    
+	table.table td a.add {
+        color: #27C46B;
+    }
+    table.table td a.edit {
+        color: #FFC107;
+    }
+    table.table td a.delete {
+        color: #E34724;
+    }
+    table.table td i {
+        font-size: 19px;
+    }
+	table.table td a.add i {
+        font-size: 24px;
+    	margin-right: -1px;
+        position: relative;
+        top: 3px;
+    }    
+    table.table .form-control {
+        height: 32px;
+        line-height: 32px;
+        box-shadow: none;
+        border-radius: 2px;
+    }
+	table.table .form-control.error {
+		border-color: #f50000;
+	}
+	table.table td .add {
+		display: none;
+	}
+    .bg-grey {
+        background: #ff7b00;
+     }
+     .logo-footer {
+        margin-bottom: 40px;
+        width: 60%;
+       
+     }
+    
+     footer {
+            color: white;
+            margin-top: 10px;
+     }
+     footer p, a {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    }
+    footer h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+    position: relative;
+    margin-top: 20px;
+    }
+    footer h6:after {
+    position: absolute;
+    content: "";
+    background: white;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+    margin-top: 20px;
+    }
+     .btn-footer {
+                 color: white;
+              
+                text-decoration: none;
+                border: 1px solid;
+                border-radius: 43px;
+                font-size: 13px;
+                padding: 0px 0px;
+                line-height: 47px;
+     }
+     .btn-footer:hover {
+                
+                text-decoration: none;
+               
+     }
+    .form-footer input[type="text"] {
+        border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+    
+    }
+    ::placeholder {
+    font-size: 10px;
+    padding-left: 0px;
+    font-style: italic;
+    }
+    .form-footer input[type="button"] {
+    border: none;
+    background:#ff7b00;
+        margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+    }
+     .social .fa {
+    color: white;
+    font-size: 22px;
+    padding: 0px 0px;
+    background: #3c3c3c;
+    }
+     footer ul li {
+         margin-top: 10px;
+    list-style: none;
+    display: block;
+    }
+    footer ul  {
+    padding-left: 0;
+    }
+    footer ul  li a{
+    text-decoration: none;
+    color: white;
+    text-decoration:none;
+    }
+    a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+    
+    }
+    .logo-part {
+    border-right: 1px solid white;
+    height: 50%;
+    display: block;
+    
+    }

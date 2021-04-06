@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+
+  
+
+    }
+#main-header {
+	background:#fb9404;
+	color: #fb9404;
+
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+ 
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+ 
+
+}
+nav ul li{
+    display: inline-block;
+    color: #ff0000;
+    font-family:'Montserrat', sans-serif ;
+    margin-top: 40px;
+    margin-right: 20px;
+   
+   
+ 
+    
+}
+nav a{
+    color: #ff0000;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 20px;
+}
+body {
+    font-family: 'Montserrat', sans-serif ;
+    overflow-x: hidden; }
+.payment-info {
+    background: #ff7b00;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.product-details {
+    padding: 10px
+}
+
+body {
+    background: #eee;
+    font-family:'Montserrat', sans-serif;
+}
+
+.cart {
+    background: #fff
+}
+
+.p-about {
+    font-size: 12px;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.table-shadow {
+    -webkit-box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42);
+    box-shadow: 5px 5px 15px -2px rgba(0, 0, 0, 0.42)
+}
+
+.type {
+    font-weight: 400;
+    font-size: 10px;
+    font-family:'Montserrat', sans-serif ;
+}
+
+label.radio {
+    cursor: pointer;
+    color: yellow;
+}
+
+label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+    padding: 1px 12px;
+    border: 2px solid #ada9a9;
+    display: inline-block;
+    color: #8f37aa;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif ;
+}
+
+label.radio input:checked+span {
+    border-color: #fff;
+    background-color: #ff7b00;
+    color: #fff
+}
+
+.credit-inputs {
+    background: #ff7b00(102, 102, 221);
+    color: #fff !important;
+    border-color: #ff7b00;
+}
+
+.credit-inputs::placeholder {
+    color: #fff;
+    font-size: 13px;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.credit-card-label {
+    font-size: 9px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.form-control.credit-inputs:focus {
+    background: #ff7b00;
+    border: #ff7b00(102, 102, 221)
+}
+
+.line {
+    border-bottom: 1px solid #ff7b00;
+}
+
+.information span {
+    font-size: 12px;
+    font-weight: 500;
+    font-family:'Montserrat', sans-serif ;
+}
+
+.information {
+    margin-bottom: 5px
+}
+
+.items {
+    -webkit-box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08)
+}
+
+.spec {
+    font-size: 11px;
+    font-family:'Montserrat', sans-serif ;
+}
+.span.font-weight-bold.d-block span{
+    font-family:'Montserrat', sans-serif ;
+}
+.bg-grey {
+    background: #ff7b00;
+ }
+ .logo-footer {
+    margin-bottom: 40px;
+    width: 60%;
+   
+ }
+
+ footer {
+        color: white;
+        margin-top: 10px;
+ }
+ footer p, a {
+font-size: 12px;
+font-family: 'Montserrat', sans-serif;
+margin-top: 20px;
+}
+footer h6 {
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 40px;
+position: relative;
+margin-top: 20px;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: white;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+margin-top: 20px;
+}
+ .btn-footer {
+             color: white;
+          
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 0px 0px;
+            line-height: 47px;
+ }
+ .btn-footer:hover {
+            
+            text-decoration: none;
+           
+ }
+.form-footer input[type="text"] {
+    border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 0px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#ff7b00;
+    margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+ .social .fa {
+color: white;
+font-size: 22px;
+padding: 0px 0px;
+background: #3c3c3c;
+}
+ footer ul li {
+     margin-top: 10px;
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: white;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
+color: #f5f5f5 !important;
+
+}
+.logo-part {
+border-right: 1px solid white;
+height: 50%;
+display: block;
+
+}
+.payment-info button{
+    background-color: rgb(255, 117, 43);
+    border-color: white;
+}
